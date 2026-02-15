@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 6
+names: ['b', 'g', 'o', 'r', 'w', 'y']
+
+roboflow:
+  workspace: apml
+  project: rubiks-cube-colors-drlrz
+  version: 1
+  license: CC BY 4.0
+  url: https://app.roboflow.com/apml/rubiks-cube-colors-drlrz/1

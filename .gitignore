@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# YOLO / training artifacts
+runs/
+*.pt
+*.onnx
+*.engine
+*.tflite
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Roboflow/downloaded dataset images (keep config files only)
+data/train/
+data/valid/
+data/test/
+
+# Keep important dataset metadata
+!data/data.yaml
+!data/README.roboflow.txt
