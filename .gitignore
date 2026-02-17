@@ -12,7 +12,8 @@ env/
 
 # YOLO / training artifacts
 runs/
-*.pt
+yolov8n.pt
+yolo26n.pt
 *.onnx
 *.engine
 *.tflite
